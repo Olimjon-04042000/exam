@@ -1090,6 +1090,9 @@ header .header__container .header__bottom a {
   border-radius: 20px;
 }
 
+.why__container {
+  margin-bottom: 30px;
+}
 .why__container .why__title {
   color: #1d242f;
   font-size: 24px;
@@ -1131,4 +1134,11 @@ header .header__container .header__bottom a {
 .why__container .cards .card .desc {
   color: #6c7178;
   line-height: 150%;
+}
+
+.footer {
+  background-color: #1D242F;
+}
+.footer .footer__container {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

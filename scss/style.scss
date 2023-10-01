@@ -673,6 +673,7 @@ header {
 }
 
 .why__container {
+    margin-bottom: 30px;
     .why__title {
         color: #1d242f;
         font-size: 24px;
@@ -710,5 +711,12 @@ header {
                 line-height: 150%;
             }
         }
+    }
+}
+
+.footer {
+    background-color: #1D242F;
+    .footer__container {
+        display: flex;
     }
 }
