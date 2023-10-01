@@ -44,7 +44,7 @@
                         </li>
                         <li>
                             <a href="#">Yuridik shaxslar uchun
-                        </a>
+                            </a>
                         </li>
                         <li>
                             <a href="#">Yetkazib berish</a>
@@ -139,29 +139,39 @@
     <!-- carusel -->
     <div class="carusel1 ">
         <div class=" carusel__container ">
-            <div id="carouselExampleControls " class="carousel slide " data-bs-ride="carousel ">
-                <div class="carousel-inner ">
-                    <div class="carousel-item active ">
-                        <img src="./images/carusel-img1.png " class="d-block w-100 " alt="... ">
+
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/carusel-img1.png" alt="Los Angeles" class="d-block" style="width:100%">
                     </div>
-                    <div class="carousel-item ">
-                        <img src="./images/carusel-img2.png " class="d-block w-100 " alt="... ">
+                    <div class="carousel-item">
+                        <img src="./images/carusel-img2.png" alt="Chicago" class="d-block" style="width:100%">
                     </div>
-                    <div class="carousel-item ">
-                        <img src="./images/carusel-img3.png " class="d-block w-100 " alt="... ">
+                    <div class="carousel-item">
+                        <img src="./images/carusel-img3.png" alt="New York" class="d-block" style="width:100%">
                     </div>
-                    <div class="carousel-item ">
-                        <img src="./images/carusel-img4.png " class="d-block w-100 " alt="... ">
+                    <div class="carousel-item">
+                        <img src="./images/carusel-img4.png" alt="New York" class="d-block" style="width:100%">
                     </div>
                 </div>
-                <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleControls " data-bs-slide="prev ">
-              <span class="carousel-control-prev-icon " aria-hidden="true "></span>
-              <span class="visually-hidden ">Previous</span>
-            </button>
-                <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleControls " data-bs-slide="next ">
-              <span class="carousel-control-next-icon " aria-hidden="true "></span>
-              <span class="visually-hidden ">Next</span>
-            </button>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
         </div>
     </div>
@@ -204,139 +214,718 @@
             <h2 class="news__title">Yangiliklar</h2>
             <div class="buttons">
                 <button>
-                <img src="./images/laptop.png" alt="laptop">
-                <h4 class="price">19 850 000 so'm</h4>
-                <h5 class="price-month">2 282 749 so'm/oyiga</h5>
-                <p class="desc">Noutbuk Apple MacBook Air M2 2023 8GB/256 GB SSD Space Grey</p>
-                <div class="reyting">
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <span>24</span>
-                </div>
-                <div class="icons">
-                    <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
-                    <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
-                    <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
-                </div>
+                    <img src="./images/laptop.png" alt="laptop">
+                    <h4 class="price">19 850 000 so'm</h4>
+                    <h5 class="price-month">2 282 749 so'm/oyiga</h5>
+                    <p class="desc">Noutbuk Apple MacBook Air M2 2023 8GB/256 GB SSD Space Grey</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
                 </button>
                 <button>
-                <img src="./images/smart-phone.png" alt="laptop">
-                <h4 class="price">1 936 000 so'm</h4>
-                <h5 class="price-month">222 640 so'm/oyiga</h5>
-                <p class="desc">Smartfon Xiamoi Redmi 12 4/128GB Black</p>
-                <div class="reyting">
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <span>24</span>
-                </div>
-                <div class="icons">
-                    <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
-                    <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
-                    <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
-                </div>
+                    <img src="./images/smart-phone.png" alt="laptop">
+                    <h4 class="price">1 936 000 so'm</h4>
+                    <h5 class="price-month">222 640 so'm/oyiga</h5>
+                    <p class="desc">Smartfon Xiamoi Redmi 12 4/128GB Black</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
                 </button>
                 <button>
-                <img src="./images/sovutgich.png" alt="sovutgich">
-                <h4 class="price">8 466 000 so'm</h4>
-                <h5 class="price-month">973 590 so'm/oyiga</h5>
-                <p class="desc">Konditsioner LG D12TT NJS+UA3</p>
-                <div class="reyting">
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <span>24</span>
-                </div>
-                <div class="icons">
-                    <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
-                    <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
-                    <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
-                </div>
+                    <img src="./images/sovutgich.png" alt="sovutgich">
+                    <h4 class="price">8 466 000 so'm</h4>
+                    <h5 class="price-month">973 590 so'm/oyiga</h5>
+                    <p class="desc">Konditsioner LG D12TT NJS+UA3</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
                 </button>
                 <button>
-                <img src="./images/asus.png" alt="compyuter">
-                <h4 class="price">4 221 000 so'm</h4>
-                <h5 class="price-month">485 415 so'm/oyiga</h5>
-                <p class="desc">Monitor Asus TUF GAMING VG249Q1R/D</p>
-                <div class="reyting">
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <span>24</span>
-                </div>
-                <div class="icons">
-                    <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
-                    <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
-                    <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
-                </div>
+                    <img src="./images/asus.png" alt="compyuter">
+                    <h4 class="price">4 221 000 so'm</h4>
+                    <h5 class="price-month">485 415 so'm/oyiga</h5>
+                    <p class="desc">Monitor Asus TUF GAMING VG249Q1R/D</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
                 </button>
                 <button>
-                <img src="./images/hp-probook.png" alt="laptop">
-                <h4 class="price">8 355 000 so'm</h4>
-                <h5 class="price-month">960 825 so'm/oyiga</h5>
-                <p class="desc">Noutbuk HP ProBook 455 15.6 inch G9 R5-5625U/8GB /512GB SSD/ 15.6 FHD</p>
-                <div class="reyting">
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <span>24</span>
-                </div>
-                <div class="icons">
-                    <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
-                    <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
-                    <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
-                </div>
+                    <img src="./images/hp-probook.png" alt="laptop">
+                    <h4 class="price">8 355 000 so'm</h4>
+                    <h5 class="price-month">960 825 so'm/oyiga</h5>
+                    <p class="desc">Noutbuk HP ProBook 455 15.6 inch G9 R5-5625U/8GB /512GB SSD/ 15.6 FHD</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
                 </button>
                 <button>
-                <img src="./images/hp-victus.png" alt="laptop">
-                <h4 class="price">12 900 000 so'm</h4>
-                <h5 class="price-month">1 483 500so'm/oyiga</h5>
-                <p class="desc">Noutbuk HP VICTUS 15-FA1093 I5-13420H/8GB/512GB SSD/VGA 6GB</p>
-                <div class="reyting">
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <i class="fa-solid fa-star" style="color:#FFA755;"></i>
-                    <span>24</span>
-                </div>
-                <div class="icons">
-                    <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
-                    <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
-                    <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
-                </div>
+                    <img src="./images/hp-victus.png" alt="laptop">
+                    <h4 class="price">12 900 000 so'm</h4>
+                    <h5 class="price-month">1 483 500so'm/oyiga</h5>
+                    <p class="desc">Noutbuk HP VICTUS 15-FA1093 I5-13420H/8GB/512GB SSD/VGA 6GB</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
                 </button>
+            </div>
+        </div>
+    </div>
+    <!-- hits -->
+    <div class="hits">
+        <div class="container hits__container">
+            <h2 class="hits__title">Xitlar</h2>
+            <div class="hits__buttons">
+                <button>
+                    <img src="./images/mixer.png" alt="mixer">
+                    <h4 class="price">688 000 so'm</h4>
+                    <h5 class="price-month">194 120 so'm/oyiga</h5>
+                    <p class="desc">Sharbat chiqargich Avalon SJ 2021A</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="card">В корзину</p>
+                </button>
+                <button>
+                    <img src="./images/artel-mixer.png" alt="mixer">
+                    <h4 class="price">486 000 so'm</h4>
+                    <h5 class="price-month">55 890 so'm/oyiga</h5>
+                    <p class="desc">Миксер Artel ART HM-833</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="card">В корзину</p>
+                </button>
+                <button>
+                    <img src="./images/tova.png" alt="kukmara">
+                    <h4 class="price">282 000 so'm</h4>
+                    <h5 class="price-month">32 429 so'm/oyiga</h5>
+                    <p class="desc">Tova KUKMARA CMT24603A</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="card">В корзину</p>
+                </button>
+                <button>
+                    <img src="./images/kukmara.png" alt="kukmara">
+                    <h4 class="price">312 000 so'm</h4>
+                    <h5 class="price-month">35 879 so'm/oyiga</h5>
+                    <p class="desc">Kukmara cgg280a ko'k tovasi</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="card">В корзину</p>
+                </button>
+                <button>
+                    <img src="./images/water.png" alt="water-box">
+                    <h4 class="price">2 381 000 so'm</h4>
+                    <h5 class="price-month">273 814 so'm/oyiga</h5>
+                    <p class="desc">Кулер для воды Vital T-10SX ECO</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="card">В корзину</p>
+                </button>
+                <button>
+                    <img src="./images/water-artel.png" alt="water-box">
+                    <h4 class="price">2 489 000 so'm</h4>
+                    <h5 class="price-month">286 234 so'm/oyiga</h5>
+                    <p class="desc">Кулер для воды Artel ART-1638S</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="card">В корзину</p>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    <!-- carusel2 -->
+    <div class="carusel2">
+        <div class="carusel2__container">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/carusel-imga1.png" alt="Los Angeles" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carusel-imga2.png" alt="Chicago" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carusel-imga3.png" alt="New York" class="d-block" style="width:100%">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <!-- buy -->
+    <div class="buy">
+        <div class="container buy__container">
+            <h2 class="buy__title">Hozirda sotib olishmoqda</h2>
+            <ul class="menu">
+                <li>
+                    <a href="#">Barchasi</a>
+                </li>
+                <li>
+                    <a href="#">Smartfonlar</a>
+                </li>
+                <li>
+                    <a href="#">Oshxona uchun</a>
+                </li>
+                <li>
+                    <a href="#">Go'zallik</a>
+                </li>
+                <li>
+                    <a href="#">Televizorlar </a>
+                </li>
+            </ul>
+            <div class="buy__buttons">
+                <button>
+                    <img src="./images/phone.png" alt="phone">
+                    <h4 class="price">5 714 000 so'm</h4>
+                    <h5 class="price-month">657 109 so'm/oyiga</h5>
+                    <p class="desc">Smartfon Samsung Galaxy A54 8/256 GB Laym</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/gas.png" alt="gas">
+                    <h4 class="price">3 201 000 so'm</h4>
+                    <h5 class="price-month">368 115 so'm/oyiga</h5>
+                    <p class="desc">Газовая варочная панель Goodwell GWP-6403RI</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/samsung-tv.png" alt="tv">
+                    <h4 class="price">7 189 000 so'm</h4>
+                    <h5 class="price-month">826 735 so'm/oyiga</h5>
+                    <p class="desc">Телевизор Samsung UE-43AU7500</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/LG-tv.png" alt="tv">
+                    <h4 class="price">10 399 000 so'm</h4>
+                    <h5 class="price-month">1 195 884 so'm/oyiga</h5>
+                    <p class="desc">Televizor LG 55UQ76003LD</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/iPhone.png" alt="phone">
+                    <h4 class="price">12 384 000 so'm</h4>
+                    <h5 class="price-month">1 424 160 so'm/oyiga</h5>
+                    <p class="desc">Smartfon Apple iPhone 14 128 GB Starlight</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/artel-gas.png" alt="gas">
+                    <h4 class="price">2 254 000 so'm</h4>
+                    <h5 class="price-month">259 209 so'm/oyiga</h5>
+                    <p class="desc">Газовая варочная панель Artel Moderno I64-0720</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- laptops -->
+    <div class="laptops">
+        <div class="container laptops__container">
+            <h2 class="laptops__title">Noutbuklar</h2>
+            <div class="laptops__buttons">
+                <button>
+                    <img src="./images/laptop1.png" alt="laptop">
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="desc">Noutbuk ASUS X1500E I7-1165G7/8GB/512GB SSD+32GB OPTANE</p>
+                    <h4 class="price">8 050 000 so'm</h4>
+                    <div class="price-month">
+                        <p class="value">925 750 so'm</p>
+                        <p class="month">12 oyiga</p>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/laptop2.png" alt="laptop">
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="desc">Noutbuk LENOVO IP 3 15ITL6 I3-1115G4/8/SSD 256/D Artic Grey</p>
+                    <h4 class="price">5 495 000 so'm</h4>
+                    <div class="price-month">
+                        <p class="value">631 924 so'm</p>
+                        <p class="month">12 oyiga</p>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/laptop2.png" alt="laptop">
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="desc">Noutbuk Lenovo IP L3 15ITL6 I5-1135G7/8GB/1000GB</p>
+                    <h4 class="price">7 454 000 so'm</h4>
+                    <div class="price-month">
+                        <p class="value">857 210 so'm</p>
+                        <p class="month">12 oyiga</p>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/laptop4.png" alt="laptop">
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="desc">Noutbuk Lenovo Ideapad 3 15ALC6 AMD Ryzen 7 5700U/8 GB/HDD 1TB</p>
+                    <h4 class="price">6 921 000 so'm</h4>
+                    <div class="price-month">
+                        <p class="value">795 915 so'm</p>
+                        <p class="month">12 oyiga</p>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/laptop5.png" alt="laptop">
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="desc">Noutbuk HP 17-CN1003CA i5-1155G7/8GB/SSD/512GB</p>
+                    <h4 class="price">7 885 000 so'm</h4>
+                    <div class="price-month">
+                        <p class="value">906 775 so'm</p>
+                        <p class="month">12 oyiga</p>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/laptop6.png" alt="laptop">
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <p class="desc">Noutbuk Lenovo IdeaPad Gaming 3 15IHU6 I7-11370H 8/512 GB SSD VGA4 RTX3050TI</p>
+                    <h4 class="price">14 519 000 so'm</h4>
+                    <div class="price-month">
+                        <p class="value">1 669 685 so'm</p>
+                        <p class="month">12 oyiga</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- worker -->
+    <div class="worker">
+        <div class="container worker__container">
+            <h2 class="worker__title">Ular ishlaydi — siz dam olasiz</h2>
+            <div class="worker__buttons">
+                <button>
+                    <img src="./images/washer-machine.png" alt="washer-machine">
+                    <h4 class="price">6 544 000 so'm</h4>
+                    <h5 class="price-month">752 560 so'm/oyiga</h5>
+                    <p class="desc">Kir yuvish mashinasi SAMSUNG WW60J42E0HWULD</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/clear-machine.png" alt="clear-machine">
+                    <h4 class="price">6 406 000 so'm</h4>
+                    <h5 class="price-month">736 690 so'm/oyiga</h5>
+                    <p class="desc">Robot-changyutgich Polaris PVCR3900</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/kofe-machine.png" alt="cofe machine">
+                    <h4 class="price">8 614 000 so'm</h4>
+                    <h5 class="price-month">990 610 so'm/oyiga</h5>
+                    <p class="desc">Kofe mashinasi Philips EP2030/10</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/kofe-machine2.png" alt="cofe-machine">
+                    <h4 class="price">6 013 000 so'm</h4>
+                    <h5 class="price-month">691 494 so'm/oyiga</h5>
+                    <p class="desc">Kofe mashinasi DeLonghi ECAM 22.110B</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/washer-machine2.png" alt="washer-machine">
+                    <h4 class="price">5 040 000 so'm</h4>
+                    <h5 class="price-month">579 599 so'm/oyiga</h5>
+                    <p class="desc">Kir yuvish mashinasi LG F2J3NSOW</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+                <button>
+                    <img src="./images/freezer.png" alt="freezer">
+                    <h4 class="price">8 799 000 so'm</h4>
+                    <h5 class="price-month">1 011 884 so'm/oyiga</h5>
+                    <p class="desc">Muzlatgich Samsung RB37P53OOWW/W3</p>
+                    <div class="reyting">
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <i class="fa-solid fa-star" style="color:#FFA755;"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-cart-shopping" style="color:#ffffff;"></i>
+                        <i class="fa-solid fa-scale-unbalanced" style="color:#6c7178;"></i>
+                        <i class="fa-regular fa-heart" style="color:#6c7178;"></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- brends -->
+    <div class="brends">
+        <div class="container brends-container">
+            <h2 class="brends__title">Ommabop brendlar</h2>
+            <div class="our-brends">
+                <div class="brend">
+                    <img src="./images/artel-logo.png" alt="artel-logo">
+                </div>
+                <div class="brend">
+                    <img src="./images/apple-icon.png" alt="apple-icon">
+                </div>
+                <div class="brend">
+                    <img src="./images/samsung-icon.png" alt="samsung-icon">
+                </div>
+                <div class="brend">
+                    <img src="./images/lg-icon.png" alt="lg-logo">
+                </div>
+                <div class="brend">
+                    <img src="./images/mi-icon.png" alt="mi-icon">
+                </div>
+                <div class="brend">
+                    <img src="./images/hp-icon.png" alt="hp icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- why -->
+    <div class="why">
+        <div class="container why__container">
+            <h2 class="why__title">Nega aynan Mediapark?</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fa-solid fa-truck" style="color:#d92e15;"></i>
+                    <h4 class="title">Sifatli yetkazib berish xizmati</h4>
+                    <p class="desc">Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck" style="color:#d92e15;"></i>
+                    <h4 class="title">Sifatli yetkazib berish xizmati</h4>
+                    <p class="desc">Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck" style="color:#d92e15;"></i>
+                    <h4 class="title">Sifatli yetkazib berish xizmati</h4>
+                    <p class="desc">Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck" style="color:#d92e15;"></i>
+                    <h4 class="title">Sifatli yetkazib berish xizmati</h4>
+                    <p class="desc">Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck" style="color:#d92e15;"></i>
+                    <h4 class="title">Sifatli yetkazib berish xizmati</h4>
+                    <p class="desc">Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck" style="color:#d92e15;"></i>
+                    <h4 class="title">Sifatli yetkazib berish xizmati</h4>
+                    <p class="desc">Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </div>
             </div>
         </div>
     </div>
 
 
+
+
+
+
+
+
+
+
+    <!-- carusel2 -->
     <!-- <div class="carusel2 ">
-        <div class="container carusel1__container ">
+        <div class="container carusel2__container ">
             <div id="carouselExampleControls " class="carousel slide " data-bs-ride="carousel ">
                 <div class="carousel-inner ">
                     <div class="carousel-item active ">
-                        <img src="./images/carusel-img1.png " class="d-block w-100 " alt="... ">
+                        <img src="./images/carusel-imga1.png " class="d-block w-100 " alt="... ">
                     </div>
                     <div class="carousel-item ">
-                        <img src="./images/carusel-img2.png " class="d-block w-100 " alt="... ">
+                        <img src="./images/carusel-imga1.png " class="d-block w-100 " alt="... ">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./images/carusel-imga1.png " class="d-block w-100 " alt="... ">
                     </div>
                     <div class="carousel-item ">
                         <img src="./images/carusel-img3.png " class="d-block w-100 " alt="... ">
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="./images/carusel-img4.png " class="d-block w-100 " alt="... ">
                     </div>
                 </div>
                 <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleControls " data-bs-slide="prev ">
@@ -349,8 +938,7 @@
             </button>
             </div>
         </div>
-    </div>-->
-
+    </div> -->
 
 
 

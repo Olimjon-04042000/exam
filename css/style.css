@@ -376,6 +376,7 @@ ul,
 li {
   list-style-type: none;
   margin: 0;
+  padding-left: 0;
 }
 
 a {
@@ -599,6 +600,9 @@ header .header__container .header__bottom a {
   color: #1d242f;
 }
 
+.news__container {
+  margin-bottom: 32px;
+}
 .news__container .news__title {
   font-size: 24px;
   color: #1d242f;
@@ -692,4 +696,439 @@ header .header__container .header__bottom a {
   height: 49.5px;
   background-color: #f7f8f8;
   border-radius: 10px;
+}
+
+.hits__container {
+  margin-bottom: 35px;
+}
+.hits__container .hits__title {
+  font-size: 24px;
+  color: #1d242f;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.hits__container .hits__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hits__container .hits__buttons button {
+  border-color: transparent;
+  background-color: transparent;
+  max-width: 215px;
+  padding: 12px;
+  border-radius: 20px;
+}
+.hits__container .hits__buttons button img {
+  width: 189.4px;
+}
+.hits__container .hits__buttons button .price {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #1d242f;
+  font-weight: bolder;
+  text-align: start;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.hits__container .hits__buttons button .price-month {
+  font-size: 12px;
+  padding: 6px 8px;
+  background-color: #fdf5f3;
+  color: #d92e15;
+  font-weight: 600;
+  border-radius: 6px;
+  width: 121px;
+}
+.hits__container .hits__buttons button .desc {
+  line-height: 150%;
+  font-weight: 400;
+  min-height: 38px;
+  margin-top: 8px;
+  text-align: start;
+  color: #6c7178;
+}
+.hits__container .hits__buttons button .reyting {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.hits__container .hits__buttons button .reyting span {
+  color: #6c7178;
+  margin-left: 4px;
+}
+.hits__container .hits__buttons button .card {
+  padding: 14px;
+  background-color: #d92e15;
+  font-weight: 600;
+  border-radius: 10px;
+  color: white;
+}
+
+.carusel2 {
+  margin-bottom: 32px;
+}
+.carusel2 .carusel2__container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buy__container .buy__title {
+  font-size: 24px;
+  color: #1d242f;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.buy__container ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.buy__container ul li a {
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 40px;
+  color: #6c7178;
+  background-color: #f7f8f8;
+}
+.buy__container .buy__buttons {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy__container .buy__buttons button {
+  border-color: transparent;
+  background-color: transparent;
+  max-width: 215px;
+  padding: 12px;
+  border-radius: 20px;
+}
+.buy__container .buy__buttons button img {
+  width: 189.4px;
+}
+.buy__container .buy__buttons button .price {
+  font-size: 20px;
+  margin-top: 4px;
+  color: #1d242f;
+  font-weight: bolder;
+  text-align: left;
+}
+.buy__container .buy__buttons button .price-month {
+  font-weight: 500;
+  font-size: 14px;
+  width: 160px;
+  padding: 4px 12px;
+  color: #0b2b5e;
+  border: 1px solid #0b2b5e;
+  border-radius: 8px;
+}
+.buy__container .buy__buttons button .desc {
+  line-height: 150%;
+  font-weight: 400;
+  margin-top: 12px;
+  min-height: 38px;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: left;
+  color: #6c7178;
+}
+.buy__container .buy__buttons button .reyting {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.buy__container .buy__buttons button .reyting span {
+  color: #6c7178;
+  margin-left: 4px;
+}
+.buy__container .buy__buttons button .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy__container .buy__buttons button .icons .fa-cart-shopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 49.5px;
+  padding: 10px 14px;
+  border: 1px solid #d92e15;
+  border-radius: 10px;
+  background-color: #d92e15;
+}
+.buy__container .buy__buttons button .icons .fa-scale-unbalanced {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49.5px;
+  height: 49.5px;
+  background-color: #f7f8f8;
+  border-radius: 10px;
+}
+.buy__container .buy__buttons button .icons .fa-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49.5px;
+  height: 49.5px;
+  background-color: #f7f8f8;
+  border-radius: 10px;
+}
+
+.laptops__container {
+  margin-bottom: 32px;
+}
+.laptops__container .laptops__title {
+  font-size: 24px;
+  color: #1d242f;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.laptops__container .laptops__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.laptops__container .laptops__buttons button {
+  border-color: transparent;
+  background-color: transparent;
+  max-width: 215px;
+  padding: 12px 4px;
+  border-radius: 20px;
+}
+.laptops__container .laptops__buttons button img {
+  width: 190px;
+  margin-bottom: 16px;
+}
+.laptops__container .laptops__buttons button .reyting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.laptops__container .laptops__buttons button .reyting span {
+  color: #6c7178;
+  margin-left: 4px;
+}
+.laptops__container .laptops__buttons button .desc {
+  line-height: 150%;
+  font-weight: 400;
+  margin-top: 12px;
+  min-height: 38px;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: center;
+  color: #6c7178;
+}
+.laptops__container .laptops__buttons button .price {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #1d242f;
+  font-weight: bolder;
+  text-align: center;
+}
+.laptops__container .laptops__buttons button .price-month {
+  margin-top: 20px;
+  padding: 2px;
+  border-radius: 12px;
+  background-color: rgb(248, 248, 249);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.laptops__container .laptops__buttons button .price-month .value {
+  text-align: center;
+  padding: 13px 15px;
+  font-weight: 500;
+  border-radius: 12px;
+  background-color: white;
+  color: #1d242f;
+  height: 43px;
+  margin-bottom: 0;
+}
+.laptops__container .laptops__buttons button .price-month .month {
+  padding: 11px;
+  font-weight: 500;
+  color: #1d242f;
+  margin-bottom: 0;
+}
+
+.worker__container {
+  margin-bottom: 32px;
+}
+.worker__container .worker__title {
+  font-size: 24px;
+  color: #1d242f;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.worker__container .worker__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.worker__container .worker__buttons button {
+  border-color: transparent;
+  background-color: transparent;
+  max-width: 215px;
+  padding: 12px;
+  border-radius: 20px;
+}
+.worker__container .worker__buttons button img {
+  width: 189.4px;
+}
+.worker__container .worker__buttons button .price {
+  font-size: 20px;
+  margin-top: 4px;
+  color: #1d242f;
+  font-weight: bolder;
+  text-align: left;
+}
+.worker__container .worker__buttons button .price-month {
+  font-weight: 500;
+  font-size: 14px;
+  width: 160px;
+  padding: 4px 12px;
+  color: #0b2b5e;
+  border: 1px solid #0b2b5e;
+  border-radius: 8px;
+}
+.worker__container .worker__buttons button .desc {
+  line-height: 150%;
+  font-weight: 400;
+  margin-top: 12px;
+  min-height: 38px;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: left;
+  color: #6c7178;
+}
+.worker__container .worker__buttons button .reyting {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.worker__container .worker__buttons button .reyting span {
+  color: #6c7178;
+  margin-left: 4px;
+}
+.worker__container .worker__buttons button .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.worker__container .worker__buttons button .icons .fa-cart-shopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 49.5px;
+  padding: 10px 14px;
+  border: 1px solid #d92e15;
+  border-radius: 10px;
+  background-color: #d92e15;
+}
+.worker__container .worker__buttons button .icons .fa-scale-unbalanced {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49.5px;
+  height: 49.5px;
+  background-color: #f7f8f8;
+  border-radius: 10px;
+}
+.worker__container .worker__buttons button .icons .fa-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49.5px;
+  height: 49.5px;
+  background-color: #f7f8f8;
+  border-radius: 10px;
+}
+
+.brends-container {
+  margin-bottom: 32px;
+}
+.brends-container .brends__title {
+  font-size: 24px;
+  color: #1d242f;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.brends-container .our-brends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brends-container .our-brends .brend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 226px;
+  height: 120px;
+  padding: 20px 20px;
+  border: 2px solid rgb(245, 245, 246);
+  border-radius: 20px;
+}
+
+.why__container .why__title {
+  color: #1d242f;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.why__container .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.why__container .cards .card {
+  width: 226px;
+  padding: 16px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+.why__container .cards .card i {
+  text-align: center;
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 5px;
+  background-color: #fdf5f3;
+  border-radius: 10px;
+}
+.why__container .cards .card .title {
+  color: #1d242f;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.why__container .cards .card .desc {
+  color: #6c7178;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
